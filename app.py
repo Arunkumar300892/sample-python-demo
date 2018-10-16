@@ -1,2 +1,1 @@
-while True:
-	print("I am learning Python !")
+return Httpresponse("I am learning Python !")

@@ -1,1 +1,2 @@
-return Httpresponse("I am learning Python !")
+print("I am learning Python !")
+exit()

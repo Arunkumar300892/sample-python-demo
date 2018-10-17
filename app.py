@@ -6,4 +6,7 @@ sf = Salesforce(username='abatini27@gmail.com', password='Salesa@1234', security
 Lastname='Ranganathan'
 Firstname='Arunkumar'
 Name = Firstname + Lastname
+print("User Name:" + Name)
 Accountcreation = sf.Account.create({'Name': Name})
+print("AccountCreated:" + Accountcreation)
+exit()
